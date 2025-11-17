@@ -51,3 +51,11 @@ h6{
 *{margin: 0;
 padding: 0;
 }
+
+.bg-nav-propio{
+    background-color: green;
+}
+
+.navbar-logo{
+    width: 50px;
+}
