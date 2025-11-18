@@ -43,8 +43,21 @@ h4{
 }
 
 h5{
-    font-size: 24px;
-    color: greenyellow;
+    font-size: 56px;
+    color: rgb(41, 66, 2);
+
+}
+
+.logo-ig{
+    height: 50px;
+}
+
+.logo-face{
+    height: 30px;
+}
+
+.logo-tktk{
+    height: 40px;
 }
 
 h6{
@@ -143,3 +156,5 @@ border: none;  }
  .imagen-historia{
 margin: 100px 0px 0px 200px;
     }
+
+
