@@ -33,6 +33,8 @@ h3{
     font-size: 56px;
     padding: 16px 8px;
     border: 3px solid black;
+    display: inline-block;
+    margin: 16px;
     
 }
 
@@ -128,12 +130,16 @@ footer{
     height: 500px;
    margin: 0px 300px 100px 650px;}
 
-   .partidos-recientes{
+.partidos-recientes{
+    font-size: 24px;  } 
     
-    font-size: 24px;
-   }
+    
+    
+.ganador-reducido{
+ color: gold;
+ font-size: 56px; 
+border: none;  }
 
-   .ganador-reducido{
-    color: gold;
-    font-size: 56px; 
-    border: none;  }
+ .imagen-historia{
+margin: 100px 0px 0px 200px;
+    }
