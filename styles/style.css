@@ -96,3 +96,30 @@ justify-content: space-around;
     color: purple;
 }
 
+.sponsor-1{
+   width: 200px;
+   height: 100px; 
+}
+
+.sponsor-2{
+    height: 100px;
+}
+
+.sponsor-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2{
+    border: 2px solid rgb(2, 7, 2);
+    padding: 8px;
+    display: inline-block;
+    margin: 200px 700px 0px 700px;
+    font-size: 44px;
+    background-color: green
+}
+
+footer{
+    margin: 300px 0px 0px 0px;
+}
