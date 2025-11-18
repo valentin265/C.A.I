@@ -158,12 +158,19 @@ border: none;  }
 margin: 100px 0px 0px 200px;
     }
 
-    .p-actualidad{
+.p-actualidad{
         margin: 8px 4px;
         padding: 16px;
     }
-    .h4-actualidad{
+.h4-actualidad{
         margin: 100px 0px 0px 4px;
     }
 
 
+.ul-principal{
+        font-size: 18px;
+    }
+
+.p-deportes{
+        margin: 44px 0px;
+    }
