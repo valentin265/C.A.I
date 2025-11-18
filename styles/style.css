@@ -123,3 +123,17 @@ h2{
 footer{
     margin: 300px 0px 0px 0px;
 }
+
+.campeon-2025{
+    height: 500px;
+   margin: 0px 300px 100px 650px;}
+
+   .partidos-recientes{
+    
+    font-size: 24px;
+   }
+
+   .ganador-reducido{
+    color: gold;
+    font-size: 56px; 
+    border: none;  }
