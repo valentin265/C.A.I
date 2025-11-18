@@ -15,7 +15,9 @@ h1{
 
     margin: 16px 8px;
 
-    border: 3px solid green;
+    padding: 16px;
+
+    
 }
 
 p{
@@ -46,6 +48,10 @@ h5{
 h6{
     font-size: 36px;
     color: green;
+    border: 2px solid greenyellow;
+    padding: 4px;
+    margin: 8px;
+    
 }
 
 *{margin: 0;
@@ -59,3 +65,34 @@ padding: 0;
 .navbar-logo{
     width: 50px;
 }
+
+.card-remera{
+    width: 18rem;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.card-short{
+    width: 18rem;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.card-remera-suplente{
+    width: 18rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+
+.venta-indumentaria{
+display: flex;
+justify-content: space-around;
+ 
+}
+
+
+.btn-primary:hover{
+    color: purple;
+}
+
