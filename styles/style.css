@@ -121,12 +121,6 @@ justify-content: space-around;
     height: 100px;
 }
 
-.sponsor-imagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 h2{
     border: 2px solid rgb(2, 7, 2);
     padding: 8px;
@@ -136,9 +130,7 @@ h2{
     background-color: green
 }
 
-footer{
-    margin: 300px 0px 0px 0px;
-}
+
 
 .campeon-2025{
     height: 500px;
@@ -174,3 +166,12 @@ margin: 100px 0px 0px 200px;
 .p-deportes{
         margin: 44px 0px;
     }
+.p-ubicacion{
+        font-size: 24px;
+
+    }
+.card-remera-arquero{
+   width: 18rem;
+    border: 2px solid black;
+    border-radius: 8px;
+     }
