@@ -1,3 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.card-remera {
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.card-short {
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.card-remera-suplente {
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.card-remera-arquero {
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.venta-indumentaria {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-nav-propio {
+  background-color: green;
+}
+
+.navbar-logo {
+  width: 50px;
+}
+
+.logo-ig {
+  height: 50px;
+}
+
+.logo-face {
+  height: 30px;
+}
+
+.logo-tktk {
+  height: 40px;
+}
+
+.imagen-historia {
+  margin: 100px 0px 0px 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
