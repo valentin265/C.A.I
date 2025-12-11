@@ -1,1 +1,9 @@
 @use "../utilities/extend";
+
+.btn-primary{
+    margin: 12px;
+        &:hover{
+            color: purple;
+        }
+}
+

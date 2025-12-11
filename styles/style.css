@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+.btn-primary {
+  margin: 12px;
+}
+.btn-primary:hover {
+  color: purple;
+}
+
 .card-remera {
   width: 18rem;
   border: 2px solid black;
@@ -30,7 +37,9 @@
 
 .venta-indumentaria {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .bg-nav-propio {
@@ -55,6 +64,89 @@
 
 .imagen-historia {
   margin: 100px 0px 0px 200px;
+}
+
+h1 {
+  color: green;
+  font-size: 56px;
+  font-family: "Merriweather", serif;
+  margin: 16px 8px;
+  padding: 16px;
+}
+
+h3 {
+  font-size: 56px;
+  padding: 16px 8px;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 16px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 56px;
+  color: rgb(41, 66, 2);
+}
+
+h6 {
+  font-size: 36px;
+  color: green;
+  border: 2px solid greenyellow;
+  padding: 4px;
+  margin: 8px;
+  display: inline-block;
+}
+
+h2 {
+  border: 2px solid rgb(2, 7, 2);
+  padding: 8px;
+  display: inline-block;
+  margin: 200px 700px 0px 700px;
+  font-size: 44px;
+  background-color: green;
+}
+
+.campeon-2025 {
+  height: 500px;
+  margin: 0px 300px 100px 650px;
+}
+
+.partidos-recientes {
+  font-size: 24px;
+}
+
+.ganador-reducido {
+  color: gold;
+  font-size: 56px;
+  border: none;
+}
+
+.p-actualidad {
+  margin: 8px 4px;
+  padding: 16px;
+}
+
+.h4-actualidad {
+  margin: 100px 0px 0px 4px;
+}
+
+.ul-principal {
+  font-size: 18px;
+}
+
+.p-deportes {
+  margin: 44px 0px;
+}
+
+.p-ubicacion {
+  font-size: 24px;
+}
+
+.ubicacion-tienda {
+  margin: 50px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
