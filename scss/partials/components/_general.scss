@@ -63,17 +63,23 @@ h2{
 
 .campeon-2025{
     height: 500px;
-   margin: 0px 300px 100px 650px;}
+   margin: 0px 300px 100px 650px;
+    border-radius: 32px;
+}
 
 .partidos-recientes{
     font-size: 24px;  } 
-    
-    
-    
+
 .ganador-reducido{
  color: gold;
  font-size: 56px; 
-border: none;  }
+ border: none; 
+ animation-name: efecto-campeon;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
+ animation-duration: 2s;
+ animation-delay: 1.2s; 
+}
 
 .p-actualidad{
         margin: 8px 4px;
@@ -98,3 +104,11 @@ border: none;  }
 .ubicacion-tienda{
      margin: 50px 0px;
  }
+
+@keyframes efecto-campeon{
+  0% {width: 100px;}
+  25% {width: 150px;}
+  50% {width: 200px; background-color: green;}
+  75% {width: 250px;}
+  100% {width: 290px; background-color: rgb(164, 221, 9);}
+}

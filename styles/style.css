@@ -16,11 +16,17 @@
   border: 2px solid black;
   border-radius: 8px;
 }
+.card-remera:hover {
+  transform: scale(1.1);
+}
 
 .card-short {
   width: 18rem;
   border: 2px solid black;
   border-radius: 8px;
+}
+.card-short:hover {
+  transform: scale(1.1);
 }
 
 .card-remera-suplente {
@@ -28,11 +34,17 @@
   border: 2px solid black;
   border-radius: 8px;
 }
+.card-remera-suplente:hover {
+  transform: scale(1.1);
+}
 
 .card-remera-arquero {
   width: 18rem;
   border: 2px solid black;
   border-radius: 8px;
+}
+.card-remera-arquero:hover {
+  transform: scale(1.1);
 }
 
 .venta-indumentaria {
@@ -43,7 +55,7 @@
 }
 
 .bg-nav-propio {
-  background-color: green;
+  background-image: linear-gradient(to right, green, rgb(87, 201, 42));
 }
 
 .navbar-logo {
@@ -112,6 +124,7 @@ h2 {
 .campeon-2025 {
   height: 500px;
   margin: 0px 300px 100px 650px;
+  border-radius: 32px;
 }
 
 .partidos-recientes {
@@ -122,6 +135,11 @@ h2 {
   color: gold;
   font-size: 56px;
   border: none;
+  animation-name: efecto-campeon;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 1.2s;
 }
 
 .p-actualidad {
@@ -147,6 +165,26 @@ h2 {
 
 .ubicacion-tienda {
   margin: 50px 0px;
+}
+
+@keyframes efecto-campeon {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 150px;
+  }
+  50% {
+    width: 200px;
+    background-color: green;
+  }
+  75% {
+    width: 250px;
+  }
+  100% {
+    width: 290px;
+    background-color: rgb(164, 221, 9);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,24 +4,36 @@
     width: 18rem;
     border: 2px solid black;
     border-radius: 8px;
+        &:hover{
+            transform: scale(1.1);
+        }
 }
 
 .card-short{
     width: 18rem;
     border: 2px solid black;
     border-radius: 8px;
+        &:hover{
+            transform: scale(1.1);
+        }
 }
 
 .card-remera-suplente{
     width: 18rem;
     border: 2px solid black;
     border-radius: 8px;
+        &:hover{
+            transform: scale(1.1);
+        }
 }
 
 .card-remera-arquero{
    width: 18rem;
     border: 2px solid black;
     border-radius: 8px;
+        &:hover{
+            transform: scale(1.1);
+        }
 }
 
 .venta-indumentaria{
@@ -29,3 +41,5 @@
     // justify-content: space-around;
     @include mixins.flex(row, space-around, center )
 }
+
+
