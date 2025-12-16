@@ -186,5 +186,9 @@ h2 {
     background-color: rgb(164, 221, 9);
   }
 }
+.footer-p {
+  font-size: 12px;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */

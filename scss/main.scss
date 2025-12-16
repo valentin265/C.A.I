@@ -1,7 +1,10 @@
+//base
 @use "./partials/base/reset";
 @use "./partials/base/tipografia";
 
+//components
 @use "./partials/components/buttons";
 @use "./partials/components/cards";
 @use "./partials/components/header";
 @use "./partials/components/general";
+@use "./partials/components/footer";
