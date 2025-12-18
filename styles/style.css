@@ -82,7 +82,7 @@ h1 {
   color: green;
   font-size: 56px;
   font-family: "Merriweather", serif;
-  margin: 16px 8px;
+  margin: 16px 0px 16px 550px;
   padding: 16px;
 }
 
@@ -189,6 +189,28 @@ h2 {
 .footer-p {
   font-size: 12px;
   font-weight: 600;
+}
+
+.logo-ig {
+  height: 50px;
+}
+
+.logo-face {
+  height: 30px;
+}
+
+.logo-tktk {
+  height: 40px;
+}
+
+.imagen-historia {
+  margin: 100px 0px 0px 200px;
+}
+
+.campeon-2025 {
+  height: 500px;
+  margin: 0px 0px 120px 670px;
+  border-radius: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
