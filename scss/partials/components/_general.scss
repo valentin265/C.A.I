@@ -1,28 +1,16 @@
 @use "../utilities/variables";
 
-.logo-ig{
-    height: 50px;
-}
-
-.logo-face{
-    height: 30px;
-}
-
-.logo-tktk{
-    height: 40px;
-}
-
-.imagen-historia{
-    margin: 100px 0px 0px 200px;
-}
-
 
 h1{
-    color: green;
-    font-size: 56px;
+    color: rgb(1, 102, 1);
+    font-size: 80px;
     font-family: "Merriweather", serif;
-    margin: 16px 0px 16px 550px;
-    padding: 16px;
+    margin: 16px 0px 0px 550px;
+    
+}
+
+.p-titulo{
+    font-size: 36px;
 }
 
 h3{
@@ -35,7 +23,7 @@ h3{
 }
 
 h4{
-    font-size: 36px;
+    font-size: 50px;
 }
 
 h5{
@@ -61,11 +49,6 @@ h2{
     background-color: green
 }
 
-.campeon-2025{
-    height: 500px;
-   margin: 0px 0px 120px 670px;
-    border-radius: 32px;
-}
 
 .partidos-recientes{
     font-size: 24px;  } 
@@ -86,20 +69,20 @@ h2{
         padding: 16px;
     }
 .h4-actualidad{
-        margin: 100px 0px 0px 4px;
-    }
+        margin: 100px 0px 0px 4px;    }
 
 .ul-principal{
-        font-size: 18px;
-    }
+    font-size: 32px; }
 
 .p-deportes{
-        margin: 44px 0px;
-    }
-.p-ubicacion{
-        font-size: 24px;
+    margin: 44px 0px;
+    font-size: 32px;
+}
 
-    }
+
+.Ubicacion{
+    font-size: 32px;
+}
 
 .ubicacion-tienda{
      margin: 50px 0px;
@@ -111,4 +94,11 @@ h2{
   50% {width: 200px; background-color: green;}
   75% {width: 250px;}
   100% {width: 290px; background-color: rgb(164, 221, 9);}
+}
+main{
+    background-color: rgb(218, 218, 218);
+}
+
+.p-jugadores{
+    margin: 0px 1050px 0px 0px;
 }
