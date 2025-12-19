@@ -5,12 +5,13 @@ h1{
     color: rgb(1, 102, 1);
     font-size: 80px;
     font-family: "Merriweather", serif;
-    margin: 16px 0px 0px 550px;
+    margin: 16px 0px;
     
 }
 
 .p-titulo{
     font-size: 36px;
+    margin: 16px 0px;
 }
 
 h3{
@@ -32,9 +33,9 @@ h5{
 
 }
 h6{
-    font-size: 36px;
+    font-size: 56px;
     color: green;
-    border: 2px solid greenyellow;
+    border: 2px solid black;
     padding: 4px;
     margin: 8px;
     display: inline-block;
@@ -44,7 +45,7 @@ h2{
     border: 2px solid rgb(2, 7, 2);
     padding: 8px;
     display: inline-block;
-    margin: 50px 700px 0px 700px;
+    margin: 50px 0px;
     font-size: 44px;
     background-color: green
 }
@@ -125,3 +126,4 @@ main{
 .p-final{
     font-size: 24px;
 }
+

@@ -37,7 +37,8 @@
 }
 
 .venta-indumentaria{
-    // display: flex;
+    display: flex;
+    flex-wrap: wrap;
     // justify-content: space-around;
     @include mixins.flex(row, space-around, center )
 }
