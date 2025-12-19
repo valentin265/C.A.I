@@ -124,8 +124,7 @@ h2 {
 }
 
 .p-actualidad {
-  margin: 8px 4px;
-  padding: 16px;
+  font-size: 24px;
 }
 
 .h4-actualidad {
@@ -139,6 +138,14 @@ h2 {
 .p-deportes {
   margin: 44px 0px;
   font-size: 32px;
+}
+
+.p-historia {
+  font-size: 24px;
+}
+
+.p-fundacion {
+  font-size: 24px;
 }
 
 .Ubicacion {
@@ -209,6 +216,16 @@ footer {
 
 .img-main {
   margin: 50px 0px 50px 200px;
+}
+
+.plantel-2021 {
+  height: 700px;
+  margin: 20px 0px 0px 350px;
+}
+
+.imagen-equipo {
+  height: 700px;
+  margin: 0px 0px 20px 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
