@@ -144,6 +144,10 @@ h2 {
   font-size: 24px;
 }
 
+.p-estadio {
+  font-size: 24px;
+}
+
 .p-fundacion {
   font-size: 24px;
 }
@@ -183,6 +187,15 @@ main {
   margin: 0px 1050px 0px 0px;
 }
 
+.p-sede {
+  font-size: 24px;
+}
+
+.p-sede-2 {
+  font-size: 18px;
+  color: green;
+}
+
 .footer-p {
   font-size: 12px;
   font-weight: 600;
@@ -202,6 +215,14 @@ footer {
 
 .logo-tktk {
   height: 40px;
+}
+
+.logo-x {
+  height: 30px;
+}
+
+.logo-youtube {
+  height: 20px;
 }
 
 .imagen-historia {
@@ -226,6 +247,10 @@ footer {
 .imagen-equipo {
   height: 700px;
   margin: 0px 0px 20px 300px;
+}
+
+.estadio {
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
