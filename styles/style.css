@@ -103,7 +103,7 @@ h2 {
   border: 2px solid rgb(2, 7, 2);
   padding: 8px;
   display: inline-block;
-  margin: 200px 700px 0px 700px;
+  margin: 50px 700px 0px 700px;
   font-size: 44px;
   background-color: green;
 }
@@ -196,6 +196,10 @@ main {
   color: green;
 }
 
+.p-final {
+  font-size: 24px;
+}
+
 .footer-p {
   font-size: 12px;
   font-weight: 600;
@@ -229,12 +233,6 @@ footer {
   margin: 100px 0px 0px 200px;
 }
 
-.campeon-2025 {
-  height: 500px;
-  margin: 0px 0px 120px 670px;
-  border-radius: 32px;
-}
-
 .img-main {
   margin: 50px 0px 50px 200px;
 }
@@ -251,6 +249,11 @@ footer {
 
 .estadio {
   height: 500px;
+}
+
+.final {
+  height: 800px;
+  margin: 0px 0px 75px 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
